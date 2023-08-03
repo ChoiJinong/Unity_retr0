@@ -32,8 +32,8 @@ public class PlayerController : MonoBehaviour
 
         // 키보드 입력 ver.02
         // 수평축과 수직축의 입력값 감지 후 저장
-        float xInput = Input.GetAxis("horizontal");
-        float zInput = Input.GetAxis("vertical");
+        float xInput = Input.GetAxis("Horizontal");
+        float zInput = Input.GetAxis("Vertical");
         // 실제 이동 속도를 입력값과 이동 속력을 사용해 결정
         float xSpeed = xInput * speed;
         float zSpeed = zInput * speed;
